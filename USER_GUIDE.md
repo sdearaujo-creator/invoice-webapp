@@ -13,7 +13,7 @@ save. It typically takes a few seconds per invoice.
 
 ## How to use it
 
-1. **Open the tool:** [URL will be added after deployment — Lesson 2.5]
+1. **Open the tool:** https://invoice-webapp-git-main-sdearaujo-6674s-projects.vercel.app
 2. Click **Choose File** and select your invoice PDF.
 3. Click **Process Invoice**.
 4. **Review the extracted data** in the five boxes.
