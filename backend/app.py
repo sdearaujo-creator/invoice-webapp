@@ -8,7 +8,13 @@ Routes:
 """
 
 import os
+import sys
 import tempfile
+
+# Make this file's own folder importable. Locally we run from backend/, so the
+# sibling modules are found automatically; on Vercel the function runs from the
+# project root, so we add backend/ to the path explicitly.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from dotenv import load_dotenv
 
